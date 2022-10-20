@@ -1,46 +1,29 @@
-export const projects = [
-  {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 0,
-  },
-  {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 1,
-  },
-  {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 2,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
-  },
-];
-
-export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
-];
+export const projects = [{
+  id: 0,
+  image: '/images/1.png',
+  tags: ['Python', 'AI', 'MAchine Learning', 'Data Science'],
+  source: 'https://github.com/lucas-ps',
+  title: 'AI and ML',
+  description: 'I have worked a lot with AI in python, having worked with evolutionary algorithms, predictive analytics, computer vision, data science and more.'
+},{
+  id: 1,
+  image: '/images/1.png',
+  tags: ['Android', 'Java', 'Api', 'Mobile Development'],
+  source: 'https://github.com/lucas-ps',
+  title: 'Mobile Development',
+  description: 'Mobile development is something that interests me greatly, having played around a lot with Java for Android apps'
+},{
+  id: 2,
+  image: '/images/1.png',
+  tags: ['CSS', 'Javascript', 'React', 'Node', 'Django', 'HTML'],
+  source: 'https://github.com/lucas-ps',
+  title: 'Web Development',
+  description: 'Including this website, I have worked with may web development frameworks including CSS, JavaScript, Django, node.js and more.'
+},{
+  id: 3,
+  image: '/images/1.png',
+  tags: ['SQL', 'Java', 'Python', 'Golang'],
+  source: 'https://github.com/lucas-ps',
+  title: 'Other Projects',
+  description: "I've also worked with SQL, Java, Haskell, Prolog, Golang and others"
+}];
