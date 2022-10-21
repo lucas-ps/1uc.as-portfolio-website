@@ -8,10 +8,10 @@ const Hero = (props) => (
   <section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Hi there! I'm Lucas
+        Hi! I'm Lucas
       </SectionTitle>
       <SectionText>
-      I'm a final year Computer Science student at the University of Exeter studying Computer Science, and this is my portfolio ✨
+      I'm a final year Computer Science student at the University of Exeter, and this is my portfolio ✨
       </SectionText>
       <Button href="#contact">Learn more</Button>
     </LeftSection>
