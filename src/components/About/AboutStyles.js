@@ -23,10 +23,6 @@ export const ImageContainer = styled.div`
   }
 `
 
-export const Picture = styled.picture`
-  text-align: center
-`
-
 export const MainImage = styled.img`
   width: 100%;
 `
@@ -65,7 +61,6 @@ export const ListContainer = styled.div`
 `
 
 export const ListTitle = styled.h4`
-  text-align: center;
   font-weight: 700;
   font-size: 28px;
   line-height: 32px;
@@ -87,7 +82,6 @@ export const ListTitle = styled.h4`
 `
 
 export const ListParagraph = styled.p`
-  text-align: center;
   font-size: 18px;
   line-height: 30px;
   color: rgba(255, 255, 255, 0.75);
